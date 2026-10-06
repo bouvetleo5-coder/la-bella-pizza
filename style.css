@@ -487,278 +487,7 @@ footer {
     background-color: #a91f1f;
     transform: translateY(-2px);
 }
-/* =========================================
-   PAGE RECRUTEMENT
-   ========================================= */
 
-.page-title {
-    text-align: center;
-    max-width: 750px;
-    margin: 60px auto 45px;
-    padding: 0 20px;
-}
-
-.page-title h1 {
-    font-size: 42px;
-    margin: 0 0 12px;
-    color: #222;
-}
-
-.page-title p {
-    color: #666;
-    font-size: 17px;
-    line-height: 1.6;
-    margin: 0;
-}
-
-/* Conteneur des offres */
-
-.recruitment {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto 70px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-/* Cartes des offres */
-
-.job-card {
-    background: white;
-    border-radius: 14px;
-    padding: 28px 24px;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
-    text-align: left;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.job-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}
-
-/* Titres des postes */
-
-.job-card h2 {
-    font-size: 21px;
-    color: #222;
-    margin: 0 0 18px;
-    line-height: 1.3;
-}
-
-/* Texte */
-
-.job-card p {
-    color: #666;
-    font-size: 14px;
-    line-height: 1.6;
-    margin: 0 0 12px;
-}
-
-.job-card strong {
-    color: #333;
-}
-
-/* Boutons Postuler */
-/* On ne modifie volontairement PAS leur apparence */
-
-/* Version téléphone */
-
-@media (max-width: 800px) {
-    .recruitment {
-        grid-template-columns: 1fr;
-        max-width: 500px;
-    }
-
-    .page-title {
-        margin-top: 45px;
-    }
-
-    .page-title h1 {
-        font-size: 36px;
-    }
-}
-/* =========================================
-   RECRUTEMENT - NOUVELLE PRESENTATION
-   ========================================= */
-
-.recruitment-section {
-    background: #111;
-    padding: 45px 0 70px;
-    margin-top: 20px;
-}
-
-.recruitment-intro {
-    text-align: center;
-    color: #aaa;
-    margin-bottom: 35px;
-    padding: 0 20px;
-}
-
-.recruitment {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-
-/* Cartes */
-
-.job-card {
-    background: white;
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.job-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
-}
-
-
-/* Titre cliquable */
-
-.job-card summary {
-    list-style: none;
-    cursor: pointer;
-    padding: 25px 22px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-    font-size: 19px;
-    font-weight: bold;
-    color: #222;
-}
-
-.job-card summary::-webkit-details-marker {
-    display: none;
-}
-
-.job-card summary .plus {
-    color: #c62828;
-    font-size: 26px;
-    font-weight: normal;
-    transition: transform 0.2s ease;
-}
-
-.job-card[open] summary .plus {
-    transform: rotate(45deg);
-}
-
-
-/* Détails */
-
-.job-details {
-    padding: 0 22px 25px;
-    border-top: 1px solid #eee;
-}
-
-.job-details p {
-    color: #666;
-    font-size: 14px;
-    line-height: 1.6;
-    margin: 18px 0;
-}
-
-.job-details strong {
-    color: #222;
-}
-
-
-/* Boutons Postuler */
-
-.job-details button {
-    margin-top: 5px;
-}
-
-
-/* Téléphone */
-
-@media (max-width: 850px) {
-
-    .recruitment {
-        grid-template-columns: 1fr;
-        max-width: 550px;
-    }
-
-    .recruitment-section {
-        padding-top: 35px;
-    }
-
-}
-/* =========================================
-   CARTES RECRUTEMENT CLIQUABLES
-   ========================================= */
-
-.recruitment {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto 70px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.job-card {
-    display: block;
-    background: white;
-    border-radius: 14px;
-    padding: 28px 24px;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
-
-    text-decoration: none;
-    color: inherit;
-
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.job-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
-}
-
-.job-card h2 {
-    font-size: 21px;
-    color: #222;
-    margin: 0 0 18px;
-    line-height: 1.3;
-}
-
-.job-card p {
-    color: #666;
-    font-size: 14px;
-    line-height: 1.6;
-    margin: 0 0 12px;
-}
-
-.job-card strong {
-    color: #333;
-}
-
-.job-link {
-    display: inline-block;
-    margin-top: 12px;
-    color: #c62828;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-
-/* Téléphone */
-
-@media (max-width: 800px) {
-    .recruitment {
-        grid-template-columns: 1fr;
-        max-width: 500px;
-    }
-}
 /* =========================================
    PAGES DETAIL DES POSTES
    ========================================= */
@@ -849,4 +578,83 @@ footer {
     .job-content {
         padding: 25px 20px;
     }
+}
+/* =========================================
+   PAGE RECRUTEMENT
+   ========================================= */
+
+.recruitment-section {
+    background: #111;
+    padding: 45px 0 70px;
+    margin-top: 20px;
+}
+
+.recruitment-intro {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 35px;
+    padding: 0 20px;
+}
+
+.recruitment {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.job-card {
+    display: block;
+    background: white;
+    color: inherit;
+    border-radius: 14px;
+    padding: 28px 24px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+.job-card h2 {
+    font-size: 21px;
+    color: #222;
+    margin: 0 0 18px;
+    line-height: 1.3;
+}
+
+.job-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 12px;
+}
+
+.job-card strong {
+    color: #333;
+}
+
+.job-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #c62828;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    .recruitment {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
 }
