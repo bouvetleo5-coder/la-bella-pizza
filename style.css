@@ -759,3 +759,94 @@ footer {
         max-width: 500px;
     }
 }
+/* =========================================
+   PAGES DETAIL DES POSTES
+   ========================================= */
+
+.job-page {
+    max-width: 850px;
+    margin: 60px auto 80px;
+    padding: 0 25px;
+}
+
+.job-page .small-title {
+    text-align: center;
+}
+
+.job-page h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #222;
+    margin: 10px 0 15px;
+}
+
+.job-intro {
+    text-align: center;
+    color: #666;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 650px;
+    margin: 0 auto 50px;
+}
+
+.job-content {
+    background: white;
+    padding: 35px 40px;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+}
+
+.job-content h2 {
+    color: #222;
+    font-size: 21px;
+    margin: 25px 0 10px;
+}
+
+.job-content h2:first-child {
+    margin-top: 0;
+}
+
+.job-content p,
+.job-content li {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.job-content ul {
+    padding-left: 20px;
+}
+
+.job-apply {
+    text-align: center;
+    margin-top: 40px;
+    padding: 35px 20px;
+    background: #111;
+    color: white;
+    border-radius: 14px;
+}
+
+.job-apply h2 {
+    margin: 0 0 8px;
+    font-size: 25px;
+}
+
+.job-apply p {
+    color: #bbb;
+    margin-bottom: 22px;
+}
+
+@media (max-width: 700px) {
+
+    .job-page {
+        margin-top: 40px;
+    }
+
+    .job-page h1 {
+        font-size: 32px;
+    }
+
+    .job-content {
+        padding: 25px 20px;
+    }
+}
