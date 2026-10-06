@@ -23,7 +23,7 @@
     </header>
 
 
-    <!-- CONTENU -->
+    <!-- TITRE -->
     <main>
 
         <section class="page-title">
@@ -32,71 +32,190 @@
         </section>
 
 
-        <section class="recruitment">
+        <!-- OFFRES -->
+        <section class="recruitment-section">
 
-            <div class="job-card">
-                <h2>🍕 Pizzaïolo / Pizzaïola</h2>
-
-                <p>
-                    Nous recherchons une personne motivée et passionnée
-                    pour rejoindre notre équipe en cuisine.
-                </p>
-
-                <p>
-                    <strong>Type de contrat :</strong> CDI / CDD
-                </p>
-
-                <p>
-                    <strong>Expérience :</strong> Débutant accepté
-                </p>
-
-                <button onclick="postuler('Pizzaïolo / Pizzaïola')">
-                    Postuler
-                </button>
+            <div class="recruitment-intro">
+                <p>Découvrez nos offres et trouvez le poste qui vous correspond.</p>
             </div>
 
 
-            <div class="job-card">
-                <h2>👨‍🍳 Employé(e) polyvalent(e)</h2>
+            <div class="recruitment">
 
-                <p>
-                    Accueil des clients, préparation des commandes,
-                    service et entretien du restaurant.
-                </p>
+                <!-- PIZZAIOLO -->
+                <details class="job-card">
 
-                <p>
-                    <strong>Type de contrat :</strong> CDI / CDD
-                </p>
+                    <summary>
+                        <span>🍕 Pizzaïolo / Pizzaïola</span>
+                        <span class="plus">+</span>
+                    </summary>
 
-                <p>
-                    <strong>Expérience :</strong> Débutant accepté
-                </p>
+                    <div class="job-details">
 
-                <button onclick="postuler('Employé(e) polyvalent(e)')">
-                    Postuler
-                </button>
-            </div>
+                        <p>
+                            <strong>Notre recherche</strong><br>
+                            Nous recherchons une personne motivée et passionnée
+                            pour rejoindre notre équipe en cuisine.
+                        </p>
+
+                        <p>
+                            <strong>💰 Salaire</strong><br>
+                            À partir de 1 850 € brut / mois selon expérience.
+                        </p>
+
+                        <p>
+                            <strong>🕐 Horaires</strong><br>
+                            Horaires principalement en service du midi et du soir.
+                        </p>
+
+                        <p>
+                            <strong>📅 Jours de travail</strong><br>
+                            Du mardi au dimanche selon le planning de l'équipe.
+                        </p>
+
+                        <p>
+                            <strong>🎯 Compétences attendues</strong><br>
+                            Organisation, rapidité, soin dans la préparation des pizzas
+                            et capacité à travailler en équipe.
+                        </p>
+
+                        <p>
+                            <strong>🤝 L'esprit d'équipe</strong><br>
+                            Nous recherchons quelqu'un de sérieux, respectueux,
+                            dynamique et toujours prêt à donner un coup de main
+                            à ses collègues.
+                        </p>
+
+                        <p>
+                            <strong>📄 Contrat</strong><br>
+                            CDI / CDD — Débutant accepté.
+                        </p>
+
+                        <button onclick="postuler('Pizzaïolo / Pizzaïola')">
+                            Postuler
+                        </button>
+
+                    </div>
+
+                </details>
 
 
-            <div class="job-card">
-                <h2>🚴 Livreur / Livreuse</h2>
+                <!-- EMPLOYE POLYVALENT -->
+                <details class="job-card">
 
-                <p>
-                    Nous recherchons une personne sérieuse et dynamique
-                    pour assurer les livraisons à domicile.
-                </p>
+                    <summary>
+                        <span>👨‍🍳 Employé(e) polyvalent(e)</span>
+                        <span class="plus">+</span>
+                    </summary>
 
-                <p>
-                    <strong>Type de contrat :</strong> CDI / CDD
-                </p>
+                    <div class="job-details">
 
-                <p>
-                    <strong>Permis :</strong> Selon le moyen de livraison
-                </p>
+                        <p>
+                            <strong>Notre recherche</strong><br>
+                            Accueil des clients, préparation des commandes,
+                            service et entretien du restaurant.
+                        </p>
 
-                <button onclick="postuler('Livreur / Livreuse')">
-                    Postuler
-                </button>
+                        <p>
+                            <strong>💰 Salaire</strong><br>
+                            À partir de 1 800 € brut / mois selon expérience.
+                        </p>
+
+                        <p>
+                            <strong>🕐 Horaires</strong><br>
+                            Services du midi et du soir, selon le planning.
+                        </p>
+
+                        <p>
+                            <strong>📅 Jours de travail</strong><br>
+                            Du lundi au samedi selon les besoins du restaurant.
+                        </p>
+
+                        <p>
+                            <strong>🎯 Compétences attendues</strong><br>
+                            Bon relationnel, ponctualité, dynamisme et sens
+                            du service client.
+                        </p>
+
+                        <p>
+                            <strong>🤝 L'esprit d'équipe</strong><br>
+                            Une bonne humeur au quotidien, de l'entraide
+                            et un véritable esprit d'équipe sont essentiels
+                            chez La Bella Pizza.
+                        </p>
+
+                        <p>
+                            <strong>📄 Contrat</strong><br>
+                            CDI / CDD — Débutant accepté.
+                        </p>
+
+                        <button onclick="postuler('Employé(e) polyvalent(e)')">
+                            Postuler
+                        </button>
+
+                    </div>
+
+                </details>
+
+
+                <!-- LIVREUR -->
+                <details class="job-card">
+
+                    <summary>
+                        <span>🚴 Livreur / Livreuse</span>
+                        <span class="plus">+</span>
+                    </summary>
+
+                    <div class="job-details">
+
+                        <p>
+                            <strong>Notre recherche</strong><br>
+                            Nous recherchons une personne sérieuse et dynamique
+                            pour assurer les livraisons à domicile.
+                        </p>
+
+                        <p>
+                            <strong>💰 Salaire</strong><br>
+                            À partir de 1 800 € brut / mois selon le contrat
+                            et le temps de travail.
+                        </p>
+
+                        <p>
+                            <strong>🕐 Horaires</strong><br>
+                            Principalement sur les services du soir.
+                        </p>
+
+                        <p>
+                            <strong>📅 Jours de travail</strong><br>
+                            Du mercredi au dimanche selon le planning.
+                        </p>
+
+                        <p>
+                            <strong>🎯 Compétences attendues</strong><br>
+                            Ponctualité, sérieux, bonne connaissance du secteur
+                            et bon contact avec les clients.
+                        </p>
+
+                        <p>
+                            <strong>🤝 L'esprit d'équipe</strong><br>
+                            Nous recherchons une personne fiable, souriante
+                            et capable de communiquer efficacement avec
+                            l'équipe du restaurant.
+                        </p>
+
+                        <p>
+                            <strong>📄 Contrat</strong><br>
+                            CDI / CDD — Permis selon le moyen de livraison.
+                        </p>
+
+                        <button onclick="postuler('Livreur / Livreuse')">
+                            Postuler
+                        </button>
+
+                    </div>
+
+                </details>
+
             </div>
 
         </section>
@@ -112,10 +231,15 @@
         </p>
 
         <div class="footer-links">
-            <a href="mentions-legales.html">Mentions légales</a>
+
+            <a href="mentions-legales.html">
+                Mentions légales
+            </a>
+
             <a href="politique-confidentialite.html">
                 Politique de confidentialité
             </a>
+
         </div>
 
     </footer>
