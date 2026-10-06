@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Bella Pizza - Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="carte.html">Carte</a>
+            <a href="recrutement.html">Recrutement</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- CONTENU -->
+    <main>
+
+        <section class="page-title">
+            <h1>Contactez-nous</h1>
+            <p>
+                Une question ? Une réservation ?
+                N'hésitez pas à nous contacter.
+            </p>
+        </section>
+
+
+        <section class="contact-section">
+
+            <!-- INFORMATIONS -->
+            <div class="contact-info">
+
+                <h2>📍 Retrouvez-nous</h2>
+
+                <p>
+                    <strong>Adresse :</strong><br>
+                    12 rue de la Pizza<br>
+                    49000 Angers
+                </p>
+
+                <p>
+                    <strong>📞 Téléphone :</strong><br>
+                    02 41 00 00 00
+                </p>
+
+                <p>
+                    <strong>✉️ Email :</strong><br>
+                    contact@labellapizza.fr
+                </p>
+
+                <h2>🕐 Horaires</h2>
+
+                <p>
+                    Lundi - Samedi : 11h30 - 14h00 / 18h00 - 22h30
+                </p>
+
+                <p>
+                    Dimanche : Fermé
+                </p>
+
+            </div>
+
+
+            <!-- FORMULAIRE -->
+            <div class="contact-form">
+
+                <h2>Envoyez-nous un message</h2>
+
+                <form onsubmit="envoyerMessage(event)">
+
+                    <label for="nom">Nom</label>
+
+                    <input
+                        type="text"
+                        id="nom"
+                        name="nom"
+                        placeholder="Votre nom"
+                        required
+                    >
+
+
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Votre adresse email"
+                        required
+                    >
+
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Votre message..."
+                        required
+                    ></textarea>
+
+
+                    <button type="submit">
+                        Envoyer le message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 La Bella Pizza — Tous droits réservés.
+        </p>
+
+        <div class="footer-links">
+            <a href="mentions-legales.html">Mentions légales</a>
+
+            <a href="politique-confidentialite.html">
+                Politique de confidentialité
+            </a>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
